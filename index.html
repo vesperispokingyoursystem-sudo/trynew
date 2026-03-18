@@ -50,15 +50,28 @@
         
       </tr>
     </table>
+    <br>
+    <hr>
 
       <form action="index.php" method="POST">
         <label for="username">USERNAME:</label>
         <input type="text" id="username" required minlength="3" maxlength="8" placeholder="fill out baby"><br>
 
         <label for="password">PASSWORD:</label>
-        <input type="password" id="password" required minlength="3" maxlength="8" placeholder="fill out darling"><br>
+        <input type="password" id="password" required minlength="3" maxlength="8" placeholder="fill out baby"><br>
+        
+        <label for="email">EMAIL:</label>
+        <input type="email" id="email" required placeholder="fill out baby"><br>
+        <label for="pdone">PHONENO-</label>
+        <input type="tel" id="phone" required placeholder="fill out baby"><br>
+        <label for="bday">BIRTHDAY:</label>
+        <input type="date" id="bday" required><br>
+        <label for="quantity">QUANTITY:</label>
+        <input type="number" id="quantity" min="1" max="1000" value="1"><br>
+        
         <input type="reset"> <br>
         <input type="submit">
+        
       </form>
   </body>
 </html>
