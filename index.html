@@ -53,7 +53,7 @@
     <br>
     <hr>
 
-      <form action="index.php" method="POST">
+      <form action="index.php" method="POST" enctype="multipart/form-data">
         <label for="username">USERNAME:</label>
         <input type="text" id="username" required minlength="3" maxlength="8" placeholder="fill out baby"><br>
 
@@ -76,6 +76,10 @@
 
         <label for="phD.">phD.</label>
         <input type="radio" id="phD." value="phD" name="title"><br>
+        <label for="subscribe">SUBSCRIBE:</label>
+        <input type="checkbox" id="subscribe" >
+        <label for="comment">COMMENT:</label>
+        <textarea id="comment" rows="4" cols="8"></textarea>
 
         
         <input type="reset"> <br>
